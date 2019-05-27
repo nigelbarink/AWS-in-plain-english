@@ -6,6 +6,15 @@
     "scripts": ["app.js"],
     "persistent": false
   },
+  "content_scripts": [
+    {
+      "matches": ["*://*.aws.amazon.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ],
+
   "browser_action": {
     "default_popup": "popup.html"
   },
