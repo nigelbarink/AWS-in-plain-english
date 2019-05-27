@@ -19,7 +19,7 @@ function translate() {
       text = text.replace(word, translatedWord);
     }
 
-    console.log(oldtext + " translated to: " + text);
+    //console.log(oldtext + " translated to: " + text);
     p.textContent = text;
   }
 
