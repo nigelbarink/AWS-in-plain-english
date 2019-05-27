@@ -1,0 +1,13 @@
+{
+  "name": "AWS Browser Extension",
+  "version": "0.0.1",
+  "description": "Translates AWS names to more human friendly names",
+  "background": {
+    "scripts": ["app.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
