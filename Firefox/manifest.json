@@ -6,8 +6,7 @@
 	  "128": "icon.png"
   },
   "background": {
-    "scripts": ["app.js"],
-    "persistent": false
+    "scripts": ["app.js"]
   },
   "content_scripts": [
     {
