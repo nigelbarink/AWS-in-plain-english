@@ -1,6 +1,6 @@
 {
   "name": "AWS in plain English",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Translates AWS names to more human friendly names",
   "icons": {
 	  "128": "icon.png"
